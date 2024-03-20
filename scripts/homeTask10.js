@@ -8,5 +8,3 @@ slider.oninput = function() {
     blockBl.style.left = -(this.value/1.35) + '%';
     cont.style.background = `rgb(${255-this.value*2.5}, ${255-this.value*2.5}, ${255-this.value*2.5})`;
 }
-
-
